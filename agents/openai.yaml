@@ -1,4 +1,4 @@
 interface:
-  display_name: "视频人物替换与 DGX 协作"
+  display_name: "Jayce · 视频人物替换与 DGX 协作"
   short_description: "从分镜参考、ComfyUI 到双机或三机协作、质检与图文交付"
-  default_prompt: "使用 $recast-video-dgx 从原片和角色映射开始制作，先核查工程状态并给出分段与机器分配计划。"
+  default_prompt: "使用 $jayce-recast-video-dgx 从原片和角色映射开始制作，先核查工程状态并给出分段与机器分配计划。"

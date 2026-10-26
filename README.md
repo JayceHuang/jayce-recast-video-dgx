@@ -4,7 +4,9 @@
 
 联系方式在个人主页： [https://imhxm.com](https://imhxm.com)
 
-# 视频人物替换制作 Skill · DGX Spark
+# Jayce · 视频人物替换制作 Skill · DGX Spark
+
+标签：[`jayce-skill`](https://github.com/topics/jayce-skill)
 
 把“选原片 → 看动作 → 角色参考 → ComfyUI → 多机生成 → 原声拼接 → 修复验收 → 图文归档”封装成一个可复用的 Codex Skill。既能处理几秒片段，也能管理完整 MV；支持两台合算同一段、两台分别做两段、三台独立补位。
 
@@ -21,21 +23,21 @@
 
 ## 安装和调用
 
-把整个 `recast-video-dgx` 文件夹放进 `~/.codex/skills/`。也可以从 GitHub 安装：
+把整个 `jayce-recast-video-dgx` 文件夹放进 `~/.codex/skills/`。也可以从 GitHub 安装：
 
 ```bash
-git clone https://github.com/JayceHuang/recast-video-dgx.git
+git clone https://github.com/JayceHuang/jayce-recast-video-dgx.git
 mkdir -p ~/.codex/skills
-cp -R recast-video-dgx ~/.codex/skills/recast-video-dgx
+cp -R jayce-recast-video-dgx ~/.codex/skills/jayce-recast-video-dgx
 ```
 
 如果目标目录已经存在，先检查已有修改并备份，再更新；不要重复嵌套复制。新聊天中可用：
 
-> 使用 $recast-video-dgx，先检查这段原片和人物动作，把两位演员替换成我提供的两张角色卡。保留完整原声，先准备分镜和参考图，给我看过再生产。
+> 使用 $jayce-recast-video-dgx，先检查这段原片和人物动作，把两位演员替换成我提供的两张角色卡。保留完整原声，先准备分镜和参考图，给我看过再生产。
 
-> 使用 $recast-video-dgx，继续这个已有工程，先读停止/交接记录、任务回执和实际输出，不重复提交。
+> 使用 $jayce-recast-video-dgx，继续这个已有工程，先读停止/交接记录、任务回执和实际输出，不重复提交。
 
-> 使用 $recast-video-dgx，只把已完成片段合成内部预览，并整理图文教程，不恢复生成。
+> 使用 $jayce-recast-video-dgx，只把已完成片段合成内部预览，并整理图文教程，不恢复生成。
 
 ## 包里有什么
 
